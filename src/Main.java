@@ -102,6 +102,35 @@ public class Main {
         float averageNumberOfDays = (maxWeightLossDays + minWeightLossDays) / 2f;
         System.out.println("Для похудения на " + weightLossGoal + " кг спортсмену нужно минимум " + minWeightLossDays + " дней, и максимум " + maxWeightLossDays + " дней. В среднем спортсмену нужно " + averageNumberOfDays + " день.");
 
+        /* 8 задание */
+
+        int salaryMasha = 67760;
+        float newSalaryMasha = salaryMasha * 1.1f;
+        int annualIncomeMasha = salaryMasha * 12;
+        float newAnnualIncomeM = newSalaryMasha * 12f;
+        float differenceInAnnualIncomeM = newAnnualIncomeM % annualIncomeMasha;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceInAnnualIncomeM + " рублей");
+
+        int salaryDenis = 83690;
+        float newSalaryDenis = salaryDenis * 1.1f;
+        int annualIncomeDenis = salaryDenis * 12;
+        float newAnnualIncomeD = newSalaryDenis * 12f;
+        float differenceInAnnualIncomeD = newAnnualIncomeD % annualIncomeDenis;
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + differenceInAnnualIncomeD + " рублей");
+
+        int salaryKristina = 76230;
+        float newSalaryKristina = salaryKristina * 1.1f;
+        int annualIncomeKristina = salaryKristina * 12;
+        float newAnnualIncomeK = newSalaryKristina * 12f;
+        float differenceInAnnualIncomeK = newAnnualIncomeK % annualIncomeKristina;
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceInAnnualIncomeK + " рублей");
+
+
+
+
+
+
+
 
 
     }
