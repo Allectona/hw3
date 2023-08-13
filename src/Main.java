@@ -24,12 +24,19 @@ public class Main {
         /* 2 задание */
 
         float a = 27.2f;
+        System.out.println(a);
         long b = 987678965549L;
+        System.out.println(b);
         float c = 2.786f;
+        System.out.println(c);
         short d = 569;
+        System.out.println(d);
         short e = -159;
+        System.out.println(e);
         short f = 27897;
+        System.out.println(f);
         byte g = 67;
+        System.out.println(g);
 
         /* 3 задание */
 
@@ -70,6 +77,30 @@ public class Main {
         System.out.println("В школе, где " + totalNumberOfClasses + " классов, нужно " + totalWhiteCansForSchool + " банок белой краски и " + totalBrownCansForSchool + " банок коричневой краски");
 
         /* 6 задание */
+
+        byte weightOf1Banana = 80;
+        byte weightOf1MilkPortion = 105;
+        byte weightOf1IceCreamPortion = 100;
+        byte weightOf1Egg = 70;
+        int weightOf5Bananas = weightOf1Banana * 5;
+        int weightOf2MilkPortion = weightOf1MilkPortion * 2;
+        int weightOf2IceCreamPortion = weightOf1IceCreamPortion * 2;
+        int weightOf4Eggs = weightOf1Egg * 4;
+        int breakfastWeightInGrams = weightOf5Bananas + weightOf2MilkPortion + weightOf2IceCreamPortion + weightOf4Eggs;
+        float breakfastWeightInKg = breakfastWeightInGrams / 1000f;
+        System.out.println("Завтрак спортсмена весит " + breakfastWeightInGrams + " грамм, или " + breakfastWeightInKg + " кг");
+
+        /* 7 задание */
+
+        byte weightLossGoal = 7;
+        short atLeastLoseWeightInGrams = 250;
+        float atLeastLoseWeightInKg = atLeastLoseWeightInGrams / 1000f;
+        short maxLoseWeightinGrams = 500;
+        float maxLoseWeightInKg = maxLoseWeightinGrams / 1000f;
+        float maxWeightLossDays = weightLossGoal / atLeastLoseWeightInKg;
+        float minWeightLossDays = weightLossGoal / maxLoseWeightInKg;
+        float averageNumberOfDays = (maxWeightLossDays + minWeightLossDays) / 2f;
+        System.out.println("Для похудения на " + weightLossGoal + " кг спортсмену нужно минимум " + minWeightLossDays + " дней, и максимум " + maxWeightLossDays + " дней. В среднем спортсмену нужно " + averageNumberOfDays + " день.");
 
 
 
